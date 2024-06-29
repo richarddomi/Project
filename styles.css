@@ -1,0 +1,45 @@
+html {
+background-color: azure;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 8em;  
+}
+
+header {
+    padding-bottom: 1em;
+    font-size: xx-large;
+    color: royalblue;
+    font-weight: bold;
+    text-justify: auto;
+    text-align: center;
+}
+
+h1 {
+    color: royalblue;
+}
+
+nav {
+    border-radius: 4%;
+    border-color: black;
+    border-style: solid;
+    background-color: cyan;
+}
+
+nav > ul {
+    border-radius: 5%;
+    border-color: black;
+    border-style: dashed;
+}
+
+section {
+    color: red;
+    font-weight: bold;
+}
+
+footer {
+    font-style: italic;
+    text-justify: auto;
+    text-align: center;
+}
