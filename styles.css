@@ -1,10 +1,13 @@
 html {
 background-color: azure;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+list-style: inside;
 }
 
 body {
     padding: 8em;  
+    padding-top: 4em;
 }
 
 header {
@@ -13,7 +16,6 @@ header {
     color: royalblue;
     font-weight: bold;
     text-justify: auto;
-    text-align: center;
 }
 
 h1 {
@@ -21,21 +23,47 @@ h1 {
 }
 
 nav {
-    border-radius: 4%;
+    border-radius: 5%;
     border-color: black;
     border-style: solid;
     background-color: cyan;
 }
 
-nav > ul {
-    border-radius: 5%;
-    border-color: black;
-    border-style: dashed;
+nav li {
+    display: inline-block;
+    background-color: white;
+    border-style: solid;
+    color: black;
+    width: 15%;
+    font-size: large;
 }
 
-section {
-    color: red;
+nav > ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+#columns {
+    display: flex;
+}
+#leftColumn {
+    flex: 50%;
+}
+#rightColumn {
+    flex: 50%;
+}
+
+ol.foods li{
+    text-justify: center;
     font-weight: bold;
+    padding: .2em;
+    font-size: large;
+}
+
+ol.foods img {
+    border-color: black;
+    border-style: solid;
+    border-width: .5em;
 }
 
 footer {
