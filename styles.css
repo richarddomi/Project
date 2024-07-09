@@ -54,7 +54,6 @@ nav > ul {
 }
 
 ol.foods li{
-    text-justify: center;
     font-weight: bold;
     padding: .2em;
     font-size: large;
